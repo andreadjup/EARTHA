@@ -1,0 +1,24 @@
+* {
+	font-family: "Alegreya Sans";
+}
+
+::selection {
+	background: hsla(210, 100%, 50%, 0.15);
+}
+
+body {
+	background: hsl(210, 10%, 98%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+	margin: 0;
+	font-family: "Alegreya Sans SC";
+
+	text-transform: lowercase;
+}

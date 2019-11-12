@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+
+#wrapper {
+	display: grid;
+
+	height: 100vh;
+	width: 100vw;
+
+	padding: 25px;
+	padding-top: 0px;
+	grid-gap: 50px;
+
+	grid-template-columns: 500px 1fr;
+	grid-template-rows: 100px 1fr;
+
+	grid-template-areas:
+		"header  header"
+		"sidebar map";
+}

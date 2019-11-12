@@ -1,0 +1,19 @@
+#map {
+	grid-area: map;
+}
+
+#map svg {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#map svg path {
+	transition: fill .5s ease-out;
+
+	stroke: hsl(210, 100%, 40%);
+	fill: hsl(210, 100%, 95%);
+}
+
+#map svg path:hover {
+	fill: hsl(210, 90%, 30%);
+}
