@@ -5,7 +5,7 @@
 .container {
     width: 100%;
     margin: 0 auto;
-    background: #55d6aa;
+    background: #70c9df;
 }
 
 .container::after {
@@ -14,13 +14,8 @@
     clear: both;
 }
 
-.logo {
-    float: left;
-    margin-left: 70px;
-}
-
 nav {
-    float: right;
+    float: left;
 }
 
 nav ul {
@@ -31,7 +26,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-left: 200px;
+    margin-left: 50px;
     padding-top: 23;
 
     position: relative;
