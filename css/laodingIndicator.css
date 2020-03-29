@@ -31,18 +31,17 @@
 }
 
 .loadingIndicator::before {
-	animation: slideRight 3s linear;
+	animation: slideRight 2s linear;
 	animation-iteration-count: infinite;
 }
 
 .loadingIndicator::after {
-	animation: slideRight 3s linear;
-	animation-delay: 1.5s;
+	animation: slideRight 2s linear;
+	left: -100%;
 	animation-iteration-count: infinite;
 }
 
 @keyframes slideRight {
-	0% { transform: translateX(-100%); }
-    50% { transform: translateX(0%); }
+	0% { transform: translateX(0%); }
     100% { transform: translateX(100%); }
 }
