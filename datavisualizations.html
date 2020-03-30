@@ -2,17 +2,15 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Data visualizations</title>
+        <title>Visuals</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i|Alegreya+Sans:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/general.css">
 		<link rel="stylesheet" href="css/layout.css">
-		<link rel="stylesheet" href="css/laodingIndicator.css">
 		<link rel="stylesheet" href="css/header.css">
-		<link rel="stylesheet" href="css/sidebar.css">
-		<link rel="stylesheet" href="css/map.css">
-
+        <link rel="stylesheet" href="css/graphs.css">
+        
 		<link rel="stylesheet" href="css/menu.css" type="text/css">
 
 		<link rel="preload" href="/images/loading.svg" as="image">
@@ -25,7 +23,7 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="datavisualizations.html">Data visualizations</a></li>
+                    <li><a href="datavisualizations.html">Visuals</a></li>
                     <li><a href="aboutus.html">About us</a></li>
                 </ul>
             </nav>
@@ -36,9 +34,89 @@
         <div id="wrapper">
 
             <header>
-                <h1>Data Visualizations</h1>
+                <h1>Visuals</h1>
             </header>
 
 
-</body>
+<!--First graph-->
+        <div style="float: center;" class="HomeComputers">
+            <h4>HomeComputers</h4>
+            <iframe style="float: center; border: 0; width: 700px; height: 600px; overflow: hidden;" src="Graphs/HomeComputers.html" scrolling="no">
+            </iframe>  
+            This graph compares growth in general public access to home computers in Norway, 
+            Sweden, Netherlands and Poland. The period explored in the study is 2006 to 2018. 
+            The study measures percentage of population that have access to home computers.
+        </div>
+<br>
+<!-- Second graph-->
+        <div style="float: center;" class="Broadband">
+            <h4>Broadband</h4>
+            <iframe style="float: center; border: 0; width: 700px; height: 600px; overflow: hidden;" src="Graphs/Broadband.html" scrolling="no">
+            </iframe>
+            This graph compares access to home broadband network in Norway,
+            Sweden, Netherlands and Poland in period between 2005 and 2010. 
+            The study measures percentage of households that have access to home broadband.
+            One can clearly see the correlation in growing numbers of home computers from the 
+            graph "HomeComputers" with growing accessibility to broadband network.
+        </div>
+
+<br>		
+<!--Third graph-->
+        <div style="float: center;" class="Covid19_Italy">
+            <h4>Development of Covid19 in Scandinavia vs Italy</h4>
+            <iframe style="float: center; border: 0; width: 800px; height: 750px; overflow: hidden;" src="Graphs/Covid19_Italy.html" scrolling="no">
+            </iframe>
+            This graph illustrates how dramatically worse the situation is in Italy comparing to Scandinavian 
+            countries. Italy jumped abruptly up in numbers of cases in the end of February, approx. 10 days 
+            before Scandinavia. Since then the numbers were rapidly growing, but it seems that total shutdown 
+            of the country is starting to help and as of March 23d the number of confirmed cases per day slowly started to crawl down. 
+        </div>
+
+<br>
+<!--Fourth graph-->
+        <div style="float: center;" class="Covid19_Scandinavia">
+            <h4>Covid19 in Scandinavia</h4>
+            <iframe style="float: center; border: 0; width: 800px; height: 750px; overflow: hidden;" src="Graphs/Covid19_Scandinavia.html" scrolling="no">
+            </iframe>
+            The peak for all three countries fell between 11th and 15th of March with much lower numbers 
+            the following couple of days, probably due to the introduction of stricter quarantine restrictions 
+            by the governments. Interestingly, as of March 23d we see the numbers in Norway and Denmark continue 
+            to grow while numbers in Sweden seem to be goin down as of date.
+        </div>
+
+<br>
+<!--Fifth graph-->
+        <div style="float: center;" class="HospitalDays">
+            <h4>Average number of days spent in the hospital</h4>
+            <iframe style="float: center; border: 0; width: 720px; height: 360px; overflow: hidden;" src="Graphs/hospital_days.png" scrolling="no">
+            </iframe>
+            From the graph one can see that Japan has a significantly higher average of days spent in the 
+            hospital than the other countries, with an average of 16 days. Russia also has an average slightly 
+            above the rest, with an average of 10 days. The rest of the countries appear to center around an
+            average lenght of 6 days spent in the hospital.
+        </div>
+
+<br>
+<!--Sixth graph-->
+        <div style="float: center;" class="AlcoholConsumption">
+            <h4>Average litres of alcohol per capita</h4>
+            <iframe style="float: center; border: 0; width: 936px; height: 360px; overflow: hidden;" src="Graphs/alcohol_consumption.png" scrolling="no">
+            </iframe>
+            The scatterplot shows the average number of litres of alcohol per capita in a wide range 
+            of countries. As shown in the graph, Turkey has a very low average compared to the other 
+            countries. Most of the studied countries fall between 8-10 litres of alcohol per capita 
+            while Turkey has an average below 2 litres. 
+        </div>
+        
+<br>
+<!--Seventh graph-->
+        <div style="float: center;" class="ThreatenedSpecies">
+            <h4>Percentage of threatened bird, mammal and plant species</h4>
+            <iframe style="float: center; border: 0; width: 1080px; height: 508px; overflow: hidden;" src="Graphs/threatened_species.png" scrolling="no">
+            </iframe>
+            Each country studied has a varying number of threatened species, both mammals, birds and 
+            plants. The graph shows the percentage of threatened species calculated from the total number
+            of known species in each country. Remarkably, more than 50% of the plant species that exist in 
+            France are threatened. 
+        </div>
 </html>
